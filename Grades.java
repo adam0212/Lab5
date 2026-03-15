@@ -28,13 +28,13 @@ public class Grades{
         boolean check;
         Scanner keyboard = new Scanner(System.in);
 
-        System.out.println("Enter the name of the input file (ie input.txt).");
+        System.out.println("Enter the name of the input file (ie input.txt):");
         out = keyboard.nextLine();
         File entered = new File(out);
 
         check = entered.exists();
         while(check == false){
-            System.out.println("Enter the name of the input file (ie input.txt).");
+            System.out.println("File does not exist, enter the name of another input file (ie input.txt):");
             out = keyboard.nextLine();
             entered = new File(out);
             check = entered.exists();
@@ -51,7 +51,7 @@ public class Grades{
         //Create a Scanner object tied to System.in (ie keyboard)
         Scanner keyboard = new Scanner(System.in);
         //Message to user
-        System.out.println("Enter the name of the output file (ie output.txt).");
+        System.out.println("Enter the name of the output file (ie output.txt):");
         return keyboard.nextLine();
     }
 

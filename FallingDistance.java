@@ -14,15 +14,32 @@ public class FallingDistance{
         Scanner keyboard = new Scanner(System.in);
         double distance;
         int numOfSecs;
+        char blank = ' ';
 
-        System.out.println("Please enter how many seconds to compute: ");
+        System.out.print("Please enter how many seconds to compute: ");
         numOfSecs = keyboard.nextInt();
+        System.out.println("");
         System.out.println("Time(secs)  Distance(m)");
-        System.out.println("=========   ==========");
+        System.out.println("=========   ===========");
 
-        for(int i = 0 ; i<= numOfSecs; i++){
-            System.out.printf( i + "           %.1f", getDistance(i));
-            System.out.println("");
+        for(int i = 1 ; i<= numOfSecs; i++){
+            if((int)Math.log10(i)==0){
+                System.out.printf( i + "           %.1f", getDistance(i));
+                System.out.println("");
+            }
+            else if((int)Math.log10(i) == 1){
+                System.out.printf( i + "          %.1f", getDistance(i));
+                System.out.println("");
+            }
+            else if((int)Math.log10(i) == 2){
+                System.out.printf( i + "         %.1f", getDistance(i));
+                System.out.println("");
+
+            }
+            else{
+                System.out.printf( i + "        %.1f", getDistance(i));
+                System.out.println("");
+            }
         }   
     }
 

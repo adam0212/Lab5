@@ -1,12 +1,12 @@
 Set 1 of grades calculated
-Number of As: 1
-Number of Bs: 1
-Number of Cs: 1
-Number of Ds: 1
-Number of Fs: 1
+Number of As: 2
+Number of Bs: 2
+Number of Cs: 2
+Number of Ds: 2
+Number of Fs: 2
 The high score was: 100
-The low score was: 50
-The avg score is: 72.0
+The low score was: 10
+The avg score is: 70.6
 Set 2 of grades calculated
 No grades to average.
 Set 3 of grades calculated
@@ -15,6 +15,6 @@ Number of Bs: 1
 Number of Cs: 1
 Number of Ds: 1
 Number of Fs: 1
-The high score was: 100
+The high score was: 90
 The low score was: 50
-The avg score is: 72.0
+The avg score is: 70.0

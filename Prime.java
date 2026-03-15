@@ -17,9 +17,10 @@ public class Prime{
         Scanner keyboard = new Scanner(System.in);
         String playAgain, playLow;
         do{ 
-            System.out.println("Enter a whole number>2 (ie 19) to test if prime: ");
+            System.out.print("Enter a whole number>2 (ie 19) to test if prime: ");
             number = keyboard.nextInt();
             isPrime = testForPrime(number);
+            System.out.print("");
 
             if(isPrime){
                 System.out.println(number + " is prime");
@@ -27,10 +28,10 @@ public class Prime{
             else{
                 System.out.println(number + " is not prime");
             }
-            System.out.println("Enter yes to test another number, no to quit. ");
+            System.out.print("Enter yes to test another number, no to quit. ");
             playAgain = keyboard.next();
             playLow = playAgain.toLowerCase();
-
+            System.out.print("");
         } while (playLow.equals("yes"));
     }
 
