@@ -7,7 +7,7 @@ import java.util.Scanner;
  * 2) processFile reads input file, determined how many of each letter grade in each set of grades and the min, max, and average of each set
  * 3) adds the following information to output file
  *
- *  @author Adam Shaheen, adamhshaheen@gmail.com
+ * @author Adam Shaheen, adamhshaheen@gmail.com
  * @version v1.1
  * @since 3/22/2026
  */
