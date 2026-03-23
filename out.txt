@@ -1,0 +1,23 @@
+Set 1 of grades calculated
+Number of As: 0
+Number of Bs: 0
+Number of Cs: 0
+Number of Ds: 0
+Number of Fs: 11
+The high score was: 7
+The low score was: 1
+The avg score is: 3.5
+
+Set 2 of grades calculated
+No grades to average.
+
+Set 3 of grades calculated
+Number of As: 7
+Number of Bs: 0
+Number of Cs: 0
+Number of Ds: 0
+Number of Fs: 2
+The high score was: 100
+The low score was: 0
+The avg score is: 79.4
+

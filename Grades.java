@@ -8,8 +8,8 @@ import java.util.Scanner;
  * 3) adds the following information to output file
  *
  *  @author Adam Shaheen, adamhshaheen@gmail.com
- * @version v1.0
- * @since 3/11/2026
+ * @version v1.1
+ * @since 3/22/2026
  */
 public class Grades{
     public static void main (String[] args) throws IOException{
@@ -79,6 +79,7 @@ public class Grades{
             if(number ==-1){
                 writer.println("Set " + set + " of grades calculated");
                 writer.println("No grades to average.");
+                writer.print("\n");
                 set += 1;
             }
             else{
@@ -122,7 +123,7 @@ public class Grades{
                 writer.println("The low score was: " + min);
                 avg = (double)total/count;
                 writer.printf("The avg score is: %.1f", avg);
-                writer.println("");
+                writer.println("\n");
             }
         }
         System.out.println("Grade processing is completed");
